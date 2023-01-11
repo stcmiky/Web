@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBPrint</title>
+    <link rel="stylesheet" href="Registracia.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+      <link rel="icon" type="image/x-icon" href="obrazky/ikona.ico">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+      
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links" id="home-page">Domov</a>
+          <li class="navbar__btn">
+            <a href="Registracia.html" class="button" id="Registracia">Registrácia</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+   
+
+    <!--Registration form-->
+    <div class="form_container">
+        <form name="form">
+          <!-- name input box-->
+          <div class="form_wrap form_grp">
+             <div class="form_item">
+                 <label>Meno</label>
+                 <input type="text">
+   
+             </div>
+             <div class="form_item">
+                 <label>Priezvisko</label>
+                 <input type="text">
+   
+             </div>
+         </div>
+         <!-- email input-->
+         <div class="form_wrap">
+             <div class="form_item">
+                 <label>E-mail</label>
+                 <input type="text">
+   
+             </div>
+         </div>
+         <!--password and confirm password-->
+         <div class="form_wrap form_grp">
+             <div class="form_item">
+                 <label>Heslo</label>
+                 <input type="password">
+             </div>
+             <div class="form_item">
+                 <label>Podvrdenie hesla</label>
+                 <input type="password">
+             </div>
+         </div>
+         <!--city name input-->
+         <div class="form_wrap">
+             <div class="form_item">
+                 <label>Adresa</label>
+                 <input type="mesto">
+                </div>
+              </div>
+                 <div class="form_wrap">
+                  <div class="form_item">
+                      <label>Účel</label>
+                 <select name="country">
+                     <option>Profesionál</option>
+                     <option>Hobby</option>
+                     <option>Iné</option>
+                 </select>
+             </div>
+         </div>
+         <!--phone no input-->
+         <div class="form_wrap">
+             <div class="form_item">
+                 <label>Telefón</label>
+                 <input type="text">
+                 <div class="error" id="phone"></div>
+             </div>
+         </div>
+         <!--submit button-->
+         <div class="btn">
+           <input type="submit" value="Registrovať">
+         </div>
+        </form>
+      </div>
+     </div>
+     <link rel="stylesheet" href="test2.css" />
+     </body>
+   </html>
